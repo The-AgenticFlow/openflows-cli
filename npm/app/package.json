@@ -2,8 +2,17 @@
   "name": "openflows-cli",
   "version": "0.1.0",
   "description": "Self-contained terminal CLI to onboard a tenant to a deployed OpenFlows instance",
-  "bin": "lib/index.js",
+  "keywords": [
+    "openflows",
+    "cli",
+    "coder",
+    "ai",
+    "agents",
+    "devops",
+    "tenant"
+  ],
   "license": "MIT",
+  "bin": "lib/index.js",
   "optionalDependencies": {
     "openflows-cli-linux-x64": "0.1.0",
     "openflows-cli-linux-arm64": "0.1.0",
