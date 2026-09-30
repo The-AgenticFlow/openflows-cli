@@ -15,4 +15,4 @@ pub use clap::Parser;
 
 /// Coder URL used for the demo deployment. This is hardcoded for now and should
 /// be changed to the real deployment URL, then the package re-published.
-pub const DEFAULT_CODER_URL: &str = "https://coder.testuser.com";
+pub const DEFAULT_CODER_URL: &str = "https://coder.testuserA.com";
