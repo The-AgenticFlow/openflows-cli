@@ -5,6 +5,12 @@ on:
     tags:
       - "v*.*.*"
 
+# Only one publish at a time — a duplicate tag event must not spawn two
+# competing publishes of the same version.
+concurrency:
+  group: npm-publish
+  cancel-in-progress: false
+
 jobs:
   publish-npm-binaries:
     name: Publish NPM packages
