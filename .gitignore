@@ -1,0 +1,4 @@
+/target
+npm/app/lib
+npm/app/node_modules
+*.log
