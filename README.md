@@ -66,3 +66,8 @@ it back.
 - Tenant name defaults to the repo owner.
 - This reuses the same Coder REST endpoints as the main OpenFlows `tenant add`,
   implemented directly here (no dependency on the main repo's crates).
+
+## Docs
+
+- [DEPLOYMENT.md](DEPLOYMENT.md) — full guide to deploy to npm and use against your Coder deployment
+- [PUBLISHING.md](PUBLISHING.md) — details on publishing to npm (token, versions)
